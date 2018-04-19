@@ -2,12 +2,12 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.mossle</groupId>
   <artifactId>lemon</artifactId>
-  <version>1.7.1-SNAPSHOT</version>
+  <version>1.8.0</version>
   <name>lemon</name>
   <packaging>war</packaging>
   <description>Lemon is an OA.</description>
   
-  <inceptionYear>2016</inceptionYear>
+  <inceptionYear>2015</inceptionYear>
   
   <licenses>
     <license>
@@ -1271,7 +1271,7 @@
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>native2ascii-maven-plugin</artifactId>
       </plugin>
-    </plugins></build>
+	</plugins></build>
 
   <reporting>
     <plugins>
@@ -1576,16 +1576,4 @@
     </profile>
   </profiles>
 
-<repositories>
-    <repository>
-      <id>oschina</id>
-      <name>oschina</name>
-      <url>http://maven.oschina.net/content/groups/public/</url>
-    </repository>
-  </repositories><pluginRepositories>
-    <pluginRepository>
-      <id>oschina</id>
-      <name>oschina</name>
-      <url>http://maven.oschina.net/content/groups/public/</url>
-    </pluginRepository>
-  </pluginRepositories></project>
+</project>
